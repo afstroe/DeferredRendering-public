@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\opengl\VertexBufferObject.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\objects\cube.cpp">
+      <Filter>opengl\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\objects\plane.cpp">
+      <Filter>opengl\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\camera.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\constants.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\motionModel\motionModel.cpp">
+      <Filter>motionModel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\shaders.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\sceneobject.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\deferredrenderer.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\App.cpp" />
+    <ClCompile Include="src\opengl\projector.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{7534fcb5-761c-4e02-9368-9944e16ee6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opengl">
+      <UniqueIdentifier>{c90c316f-eed3-43c0-8b02-4d3a3e15b74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="linearAlgebra">
+      <UniqueIdentifier>{05acb5e7-43a6-4e1b-97fb-b5d4e9a072ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opengl\objects">
+      <UniqueIdentifier>{23deba99-36ad-47d5-aaea-6bb2a6547bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="motionModel">
+      <UniqueIdentifier>{2caf1fee-643d-49c5-a3b2-dc4274565107}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\utils\debugout.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\defines.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\VertexBufferObject.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\linearAlgebra\matrix4.h">
+      <Filter>linearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\linearAlgebra\vector3.h">
+      <Filter>linearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\opengl_ext.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\glext.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\glutils.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\objects\cube.h">
+      <Filter>opengl\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\objects\plane.h">
+      <Filter>opengl\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\camera.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\constants.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\motionModel\motionModel.h">
+      <Filter>motionModel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\shaders.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\sceneobject.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\deferredrenderer.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\projector.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

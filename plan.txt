@@ -1,0 +1,21 @@
+1. Application setup
+  - grab GLFW and create a skeleton application (#0)
+
+2. OpenGL basics:
+  - VBOs (#2)
+  - matrix / vectors (linear algebra) support (#2)
+  - camera (#3)
+  - Shaders (#5)
+  - Render to textures mechanism(#7)
+  - Test the render target mechanism (#8, #9)
+
+
+3. Simple Scene (forward rendering)
+  - few cubes (#5);
+  - a plane (#2);
+  - motion model (#4);
+  - scene objects (#5)
+  - projector (#10)
+  - apply texture to projector's projected image (#11)
+  - add color to pointlights (#12)
+  - 0 pass projector(#13)
